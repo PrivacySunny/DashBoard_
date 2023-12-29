@@ -13,6 +13,18 @@ This project has been developed as a part of the application process for Unstop 
 
 ## Notes
 
+## Start the Project ##
+
+-- start installing with packages
+## npm install 
+-- run the web site
+## npm run dev
+
+
+
+
+
+
 - All components are pixel perfect in design, except a few minor unnoticible places.
 - Adding a new assessment updates state and shows the assessment in the list.
 - Assessments are stored in localStorage, which will be replaced by a backend database in a real world app.
