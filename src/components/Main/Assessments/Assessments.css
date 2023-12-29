@@ -1,0 +1,136 @@
+.assessments {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .assessments-header {
+    > h3 {
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .icons {
+      display: none;
+    }
+  }
+
+  .assessments-content {
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .new-assessment {
+      background-color: #f6f8fa;
+      border: 1px dashed #dadce0;
+      border-radius: 12px;
+      min-width: 300px;
+      height: 210px;
+      padding: 30px;
+      /* flex: 1; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 12px;
+
+      .add-icon {
+        height: 70px;
+        aspect-ratio: 1;
+        display: grid;
+        place-items: center;
+        border-radius: 100px;
+        background-color: #fff;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+      }
+
+      > h4 {
+        font-size: 18px;
+        font-weight: 500;
+      }
+
+      > p {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .assessments {
+    gap: 10px;
+
+    .assessments-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      > h3 {
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      .icons {
+        display: flex;
+        gap: 4px;
+
+        .icon {
+          width: 40px;
+          aspect-ratio: 1;
+          padding: 4px;
+          border-radius: 50px;
+          display: grid;
+          place-items: center;
+        }
+
+        .icon.active {
+          border: 1px solid #0073e6;
+          background-color: #f2f8fe;
+        }
+      }
+    }
+
+    .assessments-content {
+      gap: 15px;
+      grid-template-columns: 1fr;
+
+      .new-assessment {
+        background-color: #f6f8fa;
+        border: 1px dashed #dadce0;
+        border-radius: 12px;
+        min-width: 300px;
+        height: 210px;
+        padding: 30px;
+        /* flex: 1; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 12px;
+
+        .add-icon {
+          height: 70px;
+          aspect-ratio: 1;
+          display: grid;
+          place-items: center;
+          border-radius: 100px;
+          background-color: #fff;
+          padding: 10px;
+          border: none;
+          cursor: pointer;
+        }
+
+        > h4 {
+          font-size: 18px;
+          font-weight: 500;
+        }
+
+        > p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
