@@ -15,19 +15,15 @@ This project has been developed as a part of the application process for Unstop 
 
 ## Start the Project ##
 
--- start installing with packages
+- start installing with packages
 ## npm install 
--- run the web site
+- run the web site
 ## npm run dev
 
-# This is Dashboard
+# This is Site
 -   https://dash-board-ten-eta.vercel.app/
 
-
-
-
-
-
+# INFO
 
 - All components are pixel perfect in design, except a few minor unnoticible places.
 - Adding a new assessment updates state and shows the assessment in the list.
